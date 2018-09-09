@@ -1,0 +1,155 @@
+/* Sticky Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Fuentes  */
+
+@font-face{
+    font-family:"Lato";
+    src:url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Muli";
+    src:url("../fonts/Muli-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Ubuntu";
+    src:url("../fonts/Ubuntu-Regular.ttf");
+}
+/* Header */
+header,footer,main{
+    font-family: "Lato";
+}
+.brand-logo{
+    font-family: "Ubuntu";
+}
+
+/* Boxes */
+
+.login-box{
+    background-color: #fff;
+    border: 1px solid #edeeee;
+    border-radius: 3px;
+    padding: 1px 0px;
+    text-align: center;
+}
+
+.login-form{
+    margin-top:-30px;
+    margin-bottom: 30px;
+    padding:0px 20px;
+}
+
+/* Form */
+
+.row .input-field input:focus+label {
+    color: #fbc02d !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #fbc02d !important;
+    box-shadow: 0 1px 0 0 #fbc02d !important
+}
+
+.input-field .prefix.active {
+    color: #fbc02d !important;
+}
+
+/* Buttons */
+
+.login-btn{
+    margin-top:30px;
+}
+
+.btn {
+    font-family: "Ubuntu";
+}
+
+.btn-login{
+    width: 60%;
+}
+
+/* Tetx */
+
+h3{
+    font-family:"Ubuntu";
+    font-weight: bolder;
+}
+
+/* Loading screen */
+.loading-screen{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* Material Gradients */
+.red-45deg-gradient-1 {
+    /* Red - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #f44336 0%, #b71c1c 100%);
+    background: linear-gradient(45deg, #f44336 0%, #b71c1c 100%);
+}
+
+.green-45deg-gradient-1{
+    /* Green - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #4caf50 0%, #1b5e20 100%);
+    background: linear-gradient(45deg, #4caf50 0%, #1b5e20 100%);
+}
+
+.blue-45deg-gradient-1 {
+    /* Blue - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #1e88e5 0%, #0d47a1 100%);
+    background: linear-gradient(45deg, #1e88e5 0%, #0d47a1 100%);
+}
+
+.yellow-45deg-gradient-1 {
+    /* Yellow - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #ffeb3b 0%, #f9a825 100%);
+    background: linear-gradient(45deg, #ffeb3b 0%, #f9a825 100%);
+}
+
+.indigo-45deg-gradient-1 {
+    /* Indigo - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #3f51b5 0%, #1a237e 100%);
+    background: linear-gradient(45deg, #3f51b5 0%, #1a237e 100%);
+}
+
+.amber-45deg-gradient-1 {
+    /* Orange - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #ffc107 0%, #ff6f00 100%);
+    background: linear-gradient(45deg, #ffc107 0%, #ff6f00 100%);
+}
+
+.pink-45deg-gradient-1 {
+    /* Pink - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #e91e63 0%, #880e4f 100%);
+    background: linear-gradient(45deg, #e91e63 0%, #880e4f 100%);
+}
+
+.teal-45deg-gradient-1 {
+    /* Orange - Gradient */
+    background: #b3e5fc;
+    background: -webkit-linear-gradient(45deg, #009688 0%, #004d40 100%);
+    background: linear-gradient(45deg, #009688 0%, #004d40 100%);
+}
